@@ -6,7 +6,6 @@ Curso de Sistemas Operativos 2016-2
 
 Para la solución se utilizaron constantes que identifican los valores clave:
   * Capacidad máxima de la bodega.
-  * Tipo de articulo almacenable en la bodega
   * Volumen del artículo almacenable, según sea el tipo.
 
 Para descargar un artículo, según sea el tipo, así mismo es el límite de capacidad para que pueda ser descargado.
@@ -17,3 +16,7 @@ Para crear un paquete, debe verificarse que la bodega tenga como mínimo 90m3 gu
   * Tipo 1 son 3 artículos, luego 3 * 10m3 = 30m3.
   * Tipo 2 son 4 artículos, luego 4 * 15m3 = 60m3.
   * La suma da 90m3.
+
+En el momento de la ejecucion por consola:
+  * Las lineas impresas en rojo corresponden al proceso Descargador.
+  * Las líneas impresas en negro indican que se ejecuta el proceso Empacador.
